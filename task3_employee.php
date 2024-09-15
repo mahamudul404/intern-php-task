@@ -21,4 +21,4 @@ class Employee
 $employee = new Employee();
 $employee->setSalary(20000);
 
-echo "Employee Salary: " . $employee->getSalary() . "<br>";
+echo "Employee Salary: " . $employee->getSalary() . "\n";

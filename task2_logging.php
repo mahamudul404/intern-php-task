@@ -24,7 +24,7 @@ class ConsoleLogger implements Logger
 {
   public function log($message)
   {
-    echo $message . "<br>";
+    echo $message . "\n";
   }
 }
 

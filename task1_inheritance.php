@@ -49,7 +49,7 @@ class Rectangle extends Shape
 }
 
 $circle = new Circle(5);
-echo "Area of Circle: " . $circle->calculateArea() . "<br>";
+echo "Area of Circle: " . $circle->calculateArea() . "\n";
 
 $rectangle = new Rectangle(8, 12);
 echo "Area of Rectangle: " . $rectangle->calculateArea();

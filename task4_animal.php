@@ -22,7 +22,7 @@ class Cat extends Animal
 }
 
 $dog = new Dog();
-echo "Dog says: " . $dog->makeSound() . "<br>";
+echo "Dog says: " . $dog->makeSound() . "\n";
 
 $cat = new Cat();
-echo "Cat says: " . $cat->makeSound() . "<br>";
+echo "Cat says: " . $cat->makeSound() . "\n";
